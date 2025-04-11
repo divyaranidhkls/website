@@ -5,7 +5,7 @@ import {
   faGithub,
   
 } from "@fortawesome/free-brands-svg-icons";
-import photo from "../photo.jpg";
+import photo from "../../../public/photo.jpg"
 import "./Header.css";
 
 const Header = () => {
