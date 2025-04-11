@@ -1,0 +1,79 @@
+.projects-section {
+
+  
+
+
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projects-title {
+  font-weight: bold;
+  text-align: center;
+  
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.project-card {
+  background-color: var(--card-bg); /* Theme-based card background */
+  color: var(--text-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--text-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-icon {
+  font-size: 1.2rem;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.project-tag {
+  background-color: var(--tag-bg);
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: auto;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}

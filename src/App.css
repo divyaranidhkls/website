@@ -1,0 +1,64 @@
+.main-page {
+  text-align: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* index.css or App.css */
+
+
+/* Theme color variables */
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --footer-bg: #f0f0f0;
+  --footer-text: black;
+  --card-bg: #f9f9f9;
+  --text-color: black;
+}
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --footer-bg: #0f0f0f;
+  --footer-text: white;
+  --card-bg: #1e1e1e;
+  --text-color: white;
+}
+
+body.light-theme {
+  --bg-color: white;
+  --text-color: black;
+  --footer-bg: #f0f0f0;
+  --footer-text: black;
+}
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body.light-theme {
+  --bg-color: white;
+  --text-color: black;
+}
+
+body.dark-theme {
+  --bg-color: #121212;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+

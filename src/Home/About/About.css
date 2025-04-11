@@ -1,0 +1,42 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  padding-top: 3%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.about-container h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.about-left {
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-color);
+}
+
+.about-right p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,57 @@
+.connect-section {
+    display: flex;
+   flex-direction: row;
+    align-items:center;
+    padding: 2rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+   align-items: center;
+  gap: 110px
+   
+   
+    
+  }
+  
+  .connect-left h4 {
+  
+    
+    color: var(--text-color);
+   margin-left: 26rem;
+  }
+  
+  .connect-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .connect-input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--text-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: border 0.3s ease;
+  }
+  
+  .connect-input::placeholder {
+    color: var(--text-color);
+    opacity: 0.6;
+  }
+  
+  .connect-button {
+    background-color: var(--tag-bg, #007bff);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .connect-button:hover {
+    background-color: #0056b3;
+  }
+  
