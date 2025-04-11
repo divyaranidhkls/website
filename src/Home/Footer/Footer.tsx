@@ -36,10 +36,9 @@ const Footer = () => {
         <button className="theme-toggle" onClick={toggleTheme}>
           <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
         </button>
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
-        <a href="#"><FontAwesomeIcon icon={faXTwitter} /></a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.linkedin.com/in/divyarani-k-686b9a286/"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="https://github.com/divyaranidhkls"><FontAwesomeIcon icon={faGithub} /></a>
+        
       </div>
     </footer>
   );
