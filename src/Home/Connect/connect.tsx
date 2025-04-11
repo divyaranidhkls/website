@@ -1,4 +1,4 @@
-import './Connect.css';
+import './connect.css';
 
 const Connect = () => {
   return (
