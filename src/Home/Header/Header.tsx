@@ -35,22 +35,12 @@ const Header = () => {
               <a href="https://www.linkedin.com/in/divyarani-k-686b9a286/">
                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </a>
-            </li>
+           </li>
             <li>
-              <a href="#">
-                <FontAwesomeIcon icon={faTwitter} /> X / Twitter
-              </a>
-            </li>
-            <li>
-              <a href="#">
+              <a href="https://github.com/divyaranidhkls">
                 <FontAwesomeIcon icon={faGithub} /> GitHub
               </a>
-            </li>
-            <li>
-              <a href="#">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
-              </a>
-            </li>
+           </li>
           </ul>
         </div>
       </div>
